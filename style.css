@@ -1,0 +1,38 @@
+.header, .mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.ul-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.button1 {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border: 0px;
+  /*border-color: #F9FAF8;*/
+}
+
+.button2 {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #F9FAF8;
+}
