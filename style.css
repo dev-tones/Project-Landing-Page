@@ -63,6 +63,18 @@
   flex-direction: column;
   align-items: center;
 }
+.third-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ul-third {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
 .h-third {
   font-size: 36px;
   font-weight: bolder;
@@ -70,7 +82,6 @@
 }
 .images-third {
   display: flex;
-  flex-direction: row;
 }
 .footer {
   display: flex;
