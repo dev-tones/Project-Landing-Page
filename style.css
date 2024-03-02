@@ -56,7 +56,18 @@
 }
 .mid-second-column {
   display: flex;
-  flex-direction: column;
+  color: grey;
+  background-color: #3882F6;
+  border: 1px solid;
+  height: 200px;
+  width: 500px;
+  margin-right: 75px;
+}
+.img-second {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-right: 55px;
 }
 .third-container {
   display: flex;
@@ -74,6 +85,7 @@
   justify-content: space-between;
   gap: 50px;
   align-items: center;
+  list-style-type: none;
 }
 .h-third {
   font-size: 36px;
@@ -118,15 +130,18 @@
 .button2 {
   background-color: #3882F6;
   color: #F9FAF8;
+  width: 65px;
+  height: 30px;
   border-radius: 8px;
   border: 1px solid;
   border-color: #F9FAF8;
   box-sizing: content-box;
 }
 
-img {
-
+.img-style2 {
   border: 1px solid;
+  height: 100px;
+  width: 100px;
   border-color: #3882F6;
 }
 
