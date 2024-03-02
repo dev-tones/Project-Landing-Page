@@ -1,10 +1,35 @@
-.header, .mid {
+.menu-container {
+  display: flex;
+  align-items: center;
+  color: #F9FAF8;
+  background-color: #1F2937;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-direction: row;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 100px;
+}
+.hlinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.mid-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
   color: #F9FAF8
 }
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -35,4 +60,16 @@
   border-radius: 8px;
   border: 1px solid;
   border-color: #F9FAF8;
+}
+
+img {
+
+  border: 1px solid;
+  border-color: #3882F6;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px; 
+  color: #1F2937;
 }
